@@ -5,13 +5,12 @@ description: Configure DadsDNS on iOS devices.
 
 [Skip to content](#%5Ftop) 
 
-# iOS 
+# Configure iOS device
 
 ## Configure DadsDNS for ANFS Families
 
-Note
-
-Manual configuration only applies to the Wi-Fi network you are currently connected to. You will need to repeat these steps for each new Wi-Fi network. This method does not work for cellular connections.
+Note: 
+This configuration only applies to the Wi-Fi network you are currently connected to. You will need to repeat these steps for each new Wi-Fi network. This method does not work for cellular connections.
 
 Take note of any DNS addresses you might have set up, and save them in a safe place in case you need to use them later.
 
@@ -36,7 +35,14 @@ For malware only
 ```
 
 7. Depending on what you want to configure, choose one of the following Cloudflare DNS addresses for IPv6:  
+
 Note - DadsDNS is not IPv6 enabled yet. The following information is for Cloudflare Family DNS resolver.
+
+Block malware with 1.1.1.1 for Families  
+```  
+2606:4700:4700::11122606:4700:4700::1002  
+```  
+Block malware and adult content with 1.1.1.1 for Families  
 ```  
 2606:4700:4700::11132606:4700:4700::1003  
 ```

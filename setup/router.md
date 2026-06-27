@@ -16,7 +16,7 @@ Configuring DadsDNS for ANFS Families on your router applies the DNS setting to 
   * D-Link routers typically use `http://192.168.0.1`.
   * Ubiquiti routers typically use `http://unifi.ubnt.com`.
   * MikroTik routers typically use `http://192.168.88.1`.
-2. Enter the router credentials. For consumer routers, the default credentials for the admin console are often found under or behind the device.
+2. Enter the router credentials. For consumer routers, the default admin console credentials are often located under or behind the device.
 3. In the admin console, locate the section where **DNS settings** are configured. This may be contained within categories such as **WAN** and **IPv6** (Asus routers), **IP** (MikroTik routers), or **Internet** (Netgear routers). Consult your router's documentation for details.
 4. Take note of any DNS addresses that are currently set and save them in a safe place in case you need to use them later.
 5. Choose one of the following DNS addresses for IPv4:  
@@ -35,9 +35,9 @@ For malware only
 
 6. Choose one of the following DNS addresses for IPv6:  
 
-Note - DadsDNS is not IPv6 enabled yet. The following information is for Cloudflare Family DNS resolver.
+Note: DadsDNS is not IPv6-enabled yet. The following information is for the Cloudflare Family DNS resolver.
 
-Block malware with 1.1.1.1 for Families  
+Block malware with 1.1.1.1 for Families.  
 ```  
 2606:4700:4700::11122606:4700:4700::1002  
 ```  

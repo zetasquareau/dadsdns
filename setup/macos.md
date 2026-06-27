@@ -27,7 +27,7 @@ family.dadsdns.site
 
 8. Depending on what you want to configure, choose one of the following DNS addresses for IPv6:
 
-Note - DadsDNS is not IPv6 enabled yet. The following information is for Cloudflare Family DNS resolver.
+Note: DadsDNS is not IPv6-enabled yet. The following information is for the Cloudflare Family DNS resolver.
 
 Block malware with 1.1.1.1 for Families  
 ```  
@@ -41,7 +41,7 @@ Block malware and adult content with 1.1.1.1 for Families
 
 Note
 
-Setting up a static IP address to configure a DNS server may prevent you from connecting to some public Wi-Fi networks that use captive portals — these are the web pages some wireless networks employ to let users log in and use their services.
+Setting a static IP address to configure a DNS server may prevent you from connecting to some public Wi-Fi networks that use captive portals — the web pages some wireless networks use to require users to log in before using their services.
 
 If you are experiencing connectivity issues related to captive portals:
 

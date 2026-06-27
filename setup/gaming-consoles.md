@@ -80,8 +80,3 @@ family.dadsdns.site
 1.1.1.3  
 ```
 6. Select **Save** \> **OK**.
-
-```json
-{"@context":"https://schema.org","@type":"TechArticle","@id":"https://dadsdns.site/gaming-consoles/#page","headline":"Set up dadsdns on gaming consoles","description":"Configure dadsdns on PlayStation and Xbox.","url":"./gaming-consoles/","inLanguage":"en","image":"https://developers.cloudflare.com/cf-twitter-card.png","dateModified":"2026-05-01","publisher":{"@type":"Organization","name":"Cloudflare","url":"https://www.cloudflare.com/"},"isPartOf":{"@type":"WebSite","@id":"https://developers.cloudflare.com/#website","name":"Cloudflare Docs","url":"https://developers.cloudflare.com/"}}
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/directory/","name":"Directory"}},{"@type":"ListItem","position":2,"item":{"@id":"/dadsdns/","name":"dadsdns (DNS Resolver)"}},{"@type":"ListItem","position":3,"item":{"@id":"/dadsdns/setup/","name":"Set up"}},{"@type":"ListItem","position":4,"item":{"@id":"/dadsdns/setup/gaming-consoles/","name":"Gaming consoles"}}]}
-```

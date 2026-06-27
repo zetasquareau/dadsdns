@@ -55,7 +55,15 @@ family.dadsdns.site
 ```
 
 
-7. Depending on what you want to configure, choose one of the following DNS addresses for IPv6 to block malware and adult content  
+7. Depending on what you want to configure, choose one of the following DNS addresses for IPv6:
+
+Note - DadsDNS is not IPv6 enabled yet. The following information is for Cloudflare Family DNS resolver.
+
+Block malware with 1.1.1.1 for Families  
+```  
+2606:4700:4700::11122606:4700:4700::1002  
+```  
+Block malware and adult content with 1.1.1.1 for Families  
 ```  
 2606:4700:4700::11132606:4700:4700::1003  
 ```
